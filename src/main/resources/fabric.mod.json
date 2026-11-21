@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatmod",
+  "version": "${version}",
+  "name": "Cheat Mod",
+  "description": "Atalhos de teclado para comandos de op no creativo.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cheat.CheatClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
